@@ -1,0 +1,1260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"class",
+				"classes"
+			],
+			[
+				"m",
+				"m_blocks"
+			],
+			[
+				"m_",
+				"m_blocks"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"fi",
+				"fill_bit"
+			],
+			[
+				"fill",
+				"fill_flag"
+			],
+			[
+				"fil",
+				"fill_bit"
+			],
+			[
+				"wor",
+				"word_size"
+			],
+			[
+				"get",
+				"get_fill_length"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"bloc",
+				"blocks"
+			],
+			[
+				"blo",
+				"blocks"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"test",
+				"test_int"
+			],
+			[
+				"ac",
+				"active_size"
+			],
+			[
+				"act",
+				"active_word"
+			],
+			[
+				"size",
+				"size_type"
+			],
+			[
+				"compre",
+				"compressed_bit_vector"
+			],
+			[
+				"i",
+				"i_end"
+			],
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"a",
+				"array_type"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"obj",
+				"obj_id_list"
+			],
+			[
+				"new",
+				"new"
+			],
+			[
+				"arr",
+				"array_"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"ar",
+				"array2"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"my",
+				"my_filter"
+			],
+			[
+				"bu",
+				"buf_size"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"ch",
+				"chunk_size"
+			],
+			[
+				"f",
+				"fid1"
+			],
+			[
+				"e",
+				"endl"
+			],
+			[
+				"int",
+				"int32_t"
+			],
+			[
+				"com",
+				"compressed_output"
+			],
+			[
+				"tok",
+				"tokenizer_iterator"
+			],
+			[
+				"type",
+				"type_id"
+			],
+			[
+				"y",
+				"y_min"
+			],
+			[
+				"x_",
+				"x_min"
+			],
+			[
+				"write",
+				"writeln"
+			],
+			[
+				"gener",
+				"generate"
+			],
+			[
+				"wi",
+				"white"
+			],
+			[
+				"wir",
+				"writeln"
+			],
+			[
+				"wh",
+				"while	while(…) { … }"
+			],
+			[
+				"w",
+				"writeln"
+			],
+			[
+				"uni",
+				"unit	unittest { … }"
+			],
+			[
+				"unit",
+				"unittest"
+			],
+			[
+				"fo",
+				"forwardLeft"
+			],
+			[
+				"sq",
+				"sequence-prev"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"seque",
+				"sequence-next"
+			],
+			[
+				"sequence",
+				"sequence-next"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backg",
+				"background-size:   (property)"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"inlin",
+				"inline-block  (value)"
+			],
+			[
+				"anima",
+				"animation"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width:   (property)"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-decoration:   (property)"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"toTheR",
+				"toTheRight"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"talk",
+				"talks_by_date"
+			],
+			[
+				"Talk",
+				"TalksDay"
+			],
+			[
+				"tal",
+				"talk"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"sc",
+				"script	<script>"
+			],
+			[
+				"ti",
+				"title	<title>"
+			],
+			[
+				"dvi",
+				"div	<div>"
+			],
+			[
+				"scr",
+				"script	<script>"
+			],
+			[
+				"in",
+				"institution"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"heigh",
+				"height:   (property)"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"le",
+				"length_only"
+			],
+			[
+				"b",
+				"b0"
+			],
+			[
+				"wri",
+				"writeln"
+			],
+			[
+				"vl",
+				"vl_name"
+			],
+			[
+				"bo",
+				"bottom_line"
+			],
+			[
+				"li",
+				"liHeight"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"word",
+				"wordpress_database"
+			],
+			[
+				"apa",
+				"apache2"
+			],
+			[
+				"ro",
+				"rotateLeft"
+			],
+			[
+				"wti",
+				"writeln"
+			],
+			[
+				"cec",
+				"checkFace"
+			],
+			[
+				"chec",
+				"checkFace"
+			],
+			[
+				"toThe",
+				"toTheFront"
+			],
+			[
+				"to",
+				"toTheLeft"
+			],
+			[
+				"un",
+				"unregister_step"
+			],
+			[
+				"std",
+				"stdlib"
+			],
+			[
+				"setu",
+				"setuptools"
+			],
+			[
+				"se",
+				"setup_requires"
+			],
+			[
+				"setup",
+				"seetup_requires"
+			],
+			[
+				"dy",
+				"dtype1"
+			],
+			[
+				"dt",
+				"dtype2"
+			],
+			[
+				"dtype",
+				"dtype1"
+			],
+			[
+				"elsi",
+				"elsize1"
+			],
+			[
+				"ke",
+				"keysort"
+			],
+			[
+				"np",
+				"npy_float64"
+			],
+			[
+				"npy_fl",
+				"npy_float64"
+			],
+			[
+				"n",
+				"npy_float64"
+			],
+			[
+				"npy_f",
+				"npy_float64"
+			],
+			[
+				"npy_fla",
+				"npy_float16"
+			],
+			[
+				"np_",
+				"npy_float64"
+			],
+			[
+				"npy_float",
+				"npy_float16"
+			],
+			[
+				"inde",
+				"indexesExtension  (module)"
+			],
+			[
+				"sta",
+				"stack"
+			],
+			[
+				"els",
+				"elsize1"
+			],
+			[
+				"es",
+				"elsize1"
+			],
+			[
+				"el",
+				"elsize1"
+			],
+			[
+				"else",
+				"elsize2"
+			],
+			[
+				"char",
+				"char_ptr"
+			],
+			[
+				"any",
+				"any_type"
+			],
+			[
+				"fl",
+				"floating_type"
+			],
+			[
+				"A",
+				"PyArray_DATA"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andreabedini/Dropbox/Teaching/Experimental Maths/Notes.md",
+			"settings":
+			{
+				"buffer_size": 8923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tufte.latex",
+			"settings":
+			{
+				"buffer_size": 3624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Week1.md",
+			"settings":
+			{
+				"buffer_size": 16728,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Week1.tex",
+			"settings":
+			{
+				"buffer_size": 17002,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "headers.hs",
+			"settings":
+			{
+				"buffer_size": 312,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bibliography.bib",
+			"settings":
+			{
+				"buffer_size": 1107,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"hask",
+				"Set Syntax: Haskell"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"table",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoev",
+				"Package Control: Remove Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rus",
+				"Set Syntax: Rust"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"org",
+				"Set Syntax: orgmode"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Namespace"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"makefi",
+				"Set Syntax: Makefile"
+			],
+			[
+				"C+",
+				"Set Syntax: C++"
+			],
+			[
+				"d",
+				"Set Syntax: D"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTL",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"HML",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"REMO",
+				"Package Control: Remove Package"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"les",
+				"Set Syntax: LESS"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"pyhon",
+				"Set Syntax: Python"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 610.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.active_window().run_command('clone_file')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/gulpfile.js",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/package.json",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/Week2.md",
+		"/Users/andreabedini/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/andreabedini/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/code-blocks.hs",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/code-blocks.py",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/Week1.md",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/test.m",
+		"/Users/andreabedini/Library/Application Support/Sublime Text 3/Packages/Table Editor/README.md",
+		"/Users/andreabedini/.bash_profile",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/bibliography.tex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/tufte.latex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/expmath.latex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/filter.py",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/tufte-handout-local.tex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/Week4.md",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/chapterMachinBBP.md",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/ExpMath08.md",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/PSLQ.md",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/PSLQ.tex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/handout.latex",
+		"/Users/andreabedini/Downloads/disk.de.org",
+		"/Users/andreabedini/tufte-latex/doc/latex/tufte-latex/sample-handout.tex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/notes/PSLQ.tex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/Notes.md",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/my_notes/templates.bak/default.latex",
+		"/Users/andreabedini/Dropbox/Teaching/Experimental Maths/notes/ExpMath_Week1.tex",
+		"/Users/andreabedini/Sites/austms2014/composer.json",
+		"/Users/andreabedini/Dropbox/Notes.md",
+		"/Users/andreabedini/Desktop/Old Desktop/TODO.md",
+		"/Users/andreabedini/Downloads/Notes.md"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\cite",
+			"without",
+			"&",
+			"\\\\",
+			"&=",
+			"&",
+			"\\\\",
+			"&&",
+			"\\ ",
+			"\\\\",
+			"&&",
+			"%\\begin{align*}\n",
+			"$$%",
+			"$$",
+			"\\begin{align",
+			"align",
+			"tikz",
+			"-f",
+			"var ",
+			"json",
+			"dx",
+			"\\d",
+			"\\exercise ",
+			"\\exercise",
+			"CodeBlocks",
+			"Consider",
+			"\\begin{exercise}",
+			"\\end{exercise}",
+			"&",
+			"pmatrix",
+			"Include",
+			"mycodeblocks",
+			"behead",
+			"Compute",
+			" \\\\",
+			",&&",
+			"&&",
+			",&",
+			"align",
+			",",
+			"}, {",
+			"textbf",
+			",",
+			"textit",
+			"textcolor{green}",
+			"\\textcolor{red}",
+			",",
+			"861",
+			",",
+			"\\textcolor{red}{",
+			"color",
+			"; ",
+			";",
+			"this is the ",
+			"codeblocks",
+			"mathematica",
+			"Mathematica",
+			"mathematica",
+			"mymargin",
+			"\\",
+			"align",
+			"format",
+			"f",
+			"\\noindent\n",
+			"&\\texttt{",
+			"align",
+			"110",
+			"\n  ",
+			"Jonathan M",
+			"\n  ",
+			"@",
+			"figure",
+			"1.5",
+			"1",
+			"1)",
+			"figure",
+			"\\begin{e",
+			"\\begin",
+			"\\exercise",
+			"% ",
+			"and the fact",
+			"fontspec",
+			"font",
+			"fontsp",
+			"theorem",
+			"newcom",
+			"\\url",
+			"$documentclass$",
+			"Exer",
+			" ?",
+			"div",
+			"span",
+			"div",
+			"myemph",
+			" ",
+			"myemph",
+			"\\ldots",
+			"~~~",
+			"```",
+			"\\texttt{",
+			"verb",
+			"texttt",
+			"&\\texttt{",
+			"\\d\\t",
+			"include",
+			"image",
+			"include",
+			" ⟨",
+			"include",
+			"Example",
+			" ⟨",
+			"rfloor",
+			"a row canon",
+			"a row",
+			"echelon",
+			"canonical",
+			"ldots",
+			"A",
+			"a_",
+			"P",
+			"H",
+			"lemmacounter",
+			"\\minisec",
+			"ifxetex",
+			"page",
+			"pagestyle\n",
+			"\\",
+			" \\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andreabedini/Dropbox/Teaching/Experimental Maths/Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6543,
+								6543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true,
+							"wrap_width": 120
+						},
+						"translation.x": 0.0,
+						"translation.y": 2056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tufte.latex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 867.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Week1.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4499,
+								4499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1802.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Week1.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15254,
+								15256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7564.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "headers.hs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haskell/Haskell.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bibliography.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ExperimentalMaths.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Teaching/Experimental Maths/my_notes/ExperimentalMaths.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"fastpackwithoutmask_16",
+				"fastpackwithoutmask_16"
+			]
+		],
+		"width": 746.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

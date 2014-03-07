@@ -17,6 +17,7 @@
 \theoremstyle{tufte}
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
+\newtheorem{problem}{Problem}
 \newtheorem{exercise}{Exercise}
 \newtheorem{example}{Example}
 \newtheorem{definition}{Definition}
@@ -54,8 +55,8 @@ $endif$
 \lstset{language=Mathematica}
 \lstset{%
 	basicstyle=\ttfamily,
-	aboveskip=\topsep,		% same spacing as the verbatim environment
-	belowskip=\partopsep,	% same spacing as the verbatim environment
+	aboveskip=\topsep,
+	belowskip=\topsep,
 	xleftmargin=\parindent
 }
 

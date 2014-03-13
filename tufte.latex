@@ -1,4 +1,4 @@
-\documentclass[justified,sfsidenotes]{tufte-handout}
+\documentclass[justified,sfsidenotes,twoside]{tufte-handout}
 
 \usepackage{mathspec}
 \usepackage{xltxtra,xunicode}

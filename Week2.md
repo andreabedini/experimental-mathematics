@@ -118,7 +118,7 @@ Then we will say $H' = DH$ is the _Hermite reduction_ of $H$ and that $D$ is the
     1. Set $q = \nint(h_{i,j}/h_{j,j})$
     2. Replace $H_i$ by $H_i - q H_j$
     3. Replace $D_i$ by $D_i - q D_j$
-    4. Replace $E_i$ by $E_i + q E_j$
+    4. Replace $E_j$ by $E_j + q E_i$
 4. $H$ will be replaced by $DH$ and $E = D^{-1}$.
 
 \noindent
@@ -212,7 +212,7 @@ With this notation the corner step can be defined as replacing $S_rH$ from the e
 Statement of the algorithm
 --------------------------
 
-We now want to put all the pieces together and formulate the algorithm. The algorithm takes a input vector $x \in \RR^n$ and a constant $\gamma > 2/ \sqrt{3}$ and an optional target bound $M^*$ on the norm of any possible relation for $x$.
+We now want to put all the pieces together and formulate the algorithm. The algorithm takes a input vector $x \in \RR^n$, known with a precision of $p$ digits, a constant $\gamma > 2/ \sqrt{3}$ and an optional target bound $M^*$ on the norm of any possible relation for $x$.
 
 1. Set $H = H_x$ as defined above and set the matrices $A = B = I_n$.
 
@@ -226,7 +226,7 @@ We now want to put all the pieces together and formulate the algorithm. The algo
 
 6. Perform the reduction as in step 2.
 
-7. Terminate the algorithm if $x_j = 0$ or $h_{j,j} = 0$ for some $j$.
+7. Terminate the algorithm if $x_j < \epsilon$ or $h_{j,j} < \epsilon$ for some $j$, where $\epsilon$ is small quantity close to the working floating point precision e.g. $10^{-p+2}$.
 
 \noindent
 At the end of this iteration either a integer relation $m$ for $x$ will appear as the column of $B$ corresponding to the zero entry of $x$ or the algorithm has determined that no relation exist of norm $|m| \leq M^*$.

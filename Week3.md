@@ -36,12 +36,12 @@ $$
 
 The fixed point $x^\dagger$ is also a fixed point (albeith unstable) of the double iterated map and indeed appears as a root. You can check that the fixed points of $f_2(x)$ are stable for $3 < r < 1 + \sqrt{6}$.
 
-The quickest way to determine the determine the bifurcation points involves computing the discriminat of the fixed point equation. The discriminant of a polynomial $p$ with leading coefficient one and roots $x_i$ is the product
+The quickest way to determine the bifurcation points involves computing the discriminat of the fixed point equation. The discriminant of a polynomial $p$ with leading coefficient one and roots $x_i$ is the product
 $$
 D(p) = \prod_{i < j} (x_i - x_j)^2
 .
 $$
-Therefore $D(p) = 0$ if and only if the polynomial $p$ has at least a double root. This happens exactly at the bifurcation points of the logistic map, where a single fixed point splits into two new fixed points. The discriminant can be computed as the determinant of a matrix whose entries are associated with the coefficients of $p$ and, in particular, one does not need to know the roots of $p$ in advance.
+Therefore $D(p) = 0$ if and only if the polynomial $p$ has at least a double root. This happens exactly at the bifurcation points of the logistic map, where a single fixed point splits into two new fixed points. The discriminant can be computed as the determinant of a matrix whose entries are associated with the coefficients of $p$ and, in particular, one does not need to know the roots of $p$ in advance. `Mathematica` can compute the discriminant of a polynomial with the command `Discriminant`.
 
 Factoring out the fixed point of the single iterate, we can compute the discriminant of
 $$

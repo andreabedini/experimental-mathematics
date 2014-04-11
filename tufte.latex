@@ -1,9 +1,10 @@
 \documentclass[justified,sfsidenotes,twoside]{tufte-handout}
 
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
 \usepackage{mathspec}
 \usepackage{xltxtra,xunicode}
 
-\usepackage{amsmath,amssymb,amsthm}
 \newtheoremstyle{tufte}           % name
 	{\topsep}	                  % Space above
 	{\topsep}	                  % Space below

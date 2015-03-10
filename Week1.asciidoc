@@ -1,0 +1,305 @@
+= Experimental Mathematics, Week 1
+Andrea Bedini <abedini@ms.unimelb.edu.au>
+:stem: latexmath
+
+== Introduction
+
+This course will give you the tools that many modern researchers use to
+develop __new mathematics__. It might appear that all mathematical
+theorems stem from a logical chain of arguments, as they are often
+presented in textbooks. More often then not, mathematicians formulate
+significant conjectures after playing around with a problem and a formal
+proof of the newly born theorem is only needed at a later stage.
+
+This way of making progress was already used by Gauss, but in more
+modern times computers have played a large role in solving problems that
+would otherwise be intractable. This course aims to develop students’
+mathematical inventiveness and imagination in mathematical
+experimentation using modern tools such as symbolic manipulation
+packages. You can find much of the material used in this course in the
+books <<borwein2004mathematics>> <<borwein2004experimentation>>
+<<petkovvsek1996>>.
+
+== 8 Activities in Experimental Mathematics
+
+Without claiming to give a exact definition of experimental mathematics,
+by this name we mean the methodology of doing mathematics that includes
+the use of computations for:
+
+1.  Gaining insight and intuition
+2.  Discovering new patterns and relationships
+3.  Using graphical visualisations to suggest underlying mathematical
+principles
+4.  Testing and especially falsifying conjectures
+5.  Exploring a possible result to see if it is worth a formal proof
+6.  Suggesting approaches for a formal proof
+7.  Replacing lengthy hand derivations with computer-based derivations
+8.  Confirming analytically derived results
+
+== Learning `Mathematica`
+
+In this subject you will be required to write programs in `Mathematica`.
+Nevertheless this subject is not a programming course, and you will have
+to develop (basic) programming skills yourself with practice, either at
+home or during our computer lab sessions. Fortunately learning how to
+use `Mathematica` is not hard, and you will have plenty of time to get
+familiar with the software and its language.
+
+`Mathematica` comes with an extensive documentation centre which you can
+access within the program or online. I encourage you to turn to the
+documentation centre whenever you need to work out how to do something
+in `Mathematica` or what a particular function does.
+
+If needed, the book _An Introduction to Modern Mathematical Computing
+With Mathematica(R)_ by <<borwein2012introduction>> suits perfectly the
+requirements of this subject.
+
+== A simple sum
+
+Let's consider the problem of determining the final digit
+stem:[\ell_n] of stem:[\sigma_n = \sum_{k=1}^n\ k].
+
+Of course stem:[\sigma_n] has the well-known simple expression
+stem:[\sigma_n = n(n+1)/2] but it is not evident how this
+expression can lead us to the answer. We can run a "computer experiment"
+and compute the first few terms. Here are the first 100 terms of
+stem:[\sigma_n]:
+
+It is _evident_ that the pattern repeats every 20 terms. This is an
+insight we could not attain from the analytical expression. With this
+insight is trivial to prove that indeed
+stem:[\ell_{n+20} = \ell_n]. We have
+
+== The arithmetic-geometric mean
+
+This exercise was carried out by Gauss in 1799 without the help of
+computers but using numerical tables. Gauss noticed that the reciprocal
+of the integral
+
+[stem]
+++++
+\frac{2}{\pi} \int_0^1 \frac{dt}{\sqrt{1-t^4}}
+++++
+
+agreed numerically with the limit of the arithmetic-geometric mean
+iteration:
+
+[stem]
+++++
+a_{n+1} = \frac{1}{2}(a_n+b_n) \quad b_{n+1} = \sqrt{a_n b_n}
+++++
+
+with initial values stem:[a_0=1], stem:[b_0=\sqrt{2}].
+
+=== Exercise
+
+Compute the limit of the above iteration. Try to implement the iteration
+in `Mathematica` by yourself or use the following code:
+
+[source,mathematica]
+----
+Clear[a,b];
+a[0]=N[1,200];
+b[0]=N[Sqrt[2],200];
+a[n_]:=a[n]=(a[n-1]+b[n-1])/2;
+b[n_]:=b[n]=Sqrt[a[n-1]b[n-1]];
+----
+
+Make sure you understand the code above:
+
+* What do `N[1,200]` and `N[Sqrt[2],200]` mean? Why we don't simply
+write `1` and `Sqrt[2]`?
+* Why are we writing `a[n_]:=a[n]=...` rather than `a[n_]:=...`? What
+about simply `a[n_]=...`?
+* Type `a[n]` into `Mathematica` and watch it hit the recursion limit.
+What is happening? How can it be prevented?
+
+=== Exercise
+
+Evaluate numerically the above integral and show that it is (within
+numerical precision) equal to the inverse of the limit of
+stem:[a_n] and stem:[b_n].
+
+You can increase the number of digits computed using the options
+`WorkingPrecision` and `AccuracyGoal`:
+
+[source,mathematica]
+----
+NIntegrate[...,WorkingPrecision->200, AccuracyGoal->100]
+----
+
+== Lines in the plane
+
+This exercise is borrowed from <<Graham1994Concrete>>. How many slices of
+pizza can a person obtain by making stem:[n] straight cuts with a
+pizza knife? Or, more academically: What is the maximum number
+stem:[L_n] of regions defined by stem:[n] lines in the
+plane? It is easy to see that
+
+[stem]
+++++
+L_0 = 1, \qquad L_1=2, \qquad L_2=4.
+++++
+
+Before you read on, formulate a prediction for stem:[L_n] based
+on these three cases.
+
+When we add the third line, we find that it can split at most three of the old
+regions, no matter how we have placed the frst two lines.  Therefore
+stem:[L_3=4+3=7]. The generalization follows easily: the stem:[n]th line
+generates stem:[k] new regions if and only if it splits stem:[k] old regions.
+It splits stem:[k] old regions if and only if it crosses the previous lines in
+stem:[k-1] different places. Hence, to obtain the maximum number of regions,
+the stem:[n]th line must cross the previous stem:[n-1] lines, which can be
+achieved by choosing it in such a way that it is not parallel to any of the
+previous lines. We thus get the recursion
+
+[stem]
+++++
+\begin{aligned}
+	L_0 &= 1\\
+	L_n &= L_{n-1} + n.
+\end{aligned}
+++++
+
+=== Exercise
+
+Program this recursion in `Mathematica`. Guess a closed form formula for
+stem:[L_n]. You can use the __The On-Line Encyclopedia of Integer
+Sequences__footnote:[http://oeis.org] to find out more.
+
+== Other exercises
+
+=== Exercise
+
+Pascal’s triangle has elements stem:[\binom{m}{n}]:
+
+[stem]
+++++
+\begin{array}{ccccccccc}
+	&&&& 1 &&&& \\
+	&&&1 && 1 &&&\\
+	&& 1 && 2 && 1 &&\\
+	& 1 && 3 && 3 && 1 &\\
+	1 && 4 && 6 && 4 && 1
+\end{array}
+++++
+
+What is the structure of the distribution of even and odd numbers in this
+triangle? To visualise this we plot a point if stem:[\binom{m}{n} \equiv 1
+\bmod 2] and none otherwise. Write a little program in `Mathematica` that does
+this. Commands that are useful are `Binomial[m,n], Mod[x,2]` and `ListPlot[]`.
+
+=== Exercise
+
+<<borwein2004mathematics>>, p. 89. Consider the recursion
+
+[stem]
+++++
+\begin{aligned}
+a_0 &= x,\\
+a_{n+1} &= \frac12(a_n^2+y^2).
+\end{aligned}
+++++
+
+Try computing a few iterations of this recursion for various values of stem:[x]
+and stem:[y], and use the command `ListPointPlot3D[]` to generate a scatter
+plot. Based on the scatter plot, describe the shape of the domain in the
+stem:[(x,y)] plane for which the recursion converges. Prove your result.
+
+You can use this code to produce a plot:
+
+[source,mathematica]
+----
+Clear[a,x,y];
+a[x_,y_,0]=x;
+a[x_,y_,n_]:=a[x,y,n]=1/2(a[x,y,n-1]^2+y^2);
+Flatten[Table[{x,y,a[x,y,n]},
+{n,4},{x,-2,2,.1},{y,-2,2,.1}],2]//ListPointPlot3D
+----
+
+=== Exercise
+
+<<borwein2004mathematics>>, p. 90. Compute stem:[A^{10^6}] and stem:[A^{-7}]
+for
+
+[stem]
+++++
+A=\begin{pmatrix}
+3/2 & 1/2\\
+-1/2 & 1/2
+\end{pmatrix}.
+++++
+
+Use `Mathematica` to evaluate stem:[A^n] for various integers
+stem:[n] and deduce a formula for stem:[A^n]. Prove this
+formula.
+
+=== Exercise
+
+<<borwein2004mathematics>>, p. 212. Let
+
+[stem]
+++++
+A = \begin{pmatrix}
+ 2 & -1 &  0 \\
+-1 &  2 & -1 \\
+ 0 & -1 &  2 \\
+\end{pmatrix}
+++++
+
+Show that any matrix stem:[B] that commutes with stem:[A] must be a quadratic
+polynomial in stem:[A]. __Hint__: Consider the explicit form of a quadratic in
+stem:[A] and the information implicit in stem:[AB - BA = 0]. This yields a set
+of linear equations that you can solve using `Mathematica`.
+
+=== Exercise
+
+<<borwein2004mathematics>>, p. 300. Evaluate the sum stem:[\sum_{k=0}^{n-1}
+F_{n-k} 10^k], where stem:[F_n] is the stem:[n]-th Fibonacci number. __Hint__:
+Experiment numerically, find a closed form and verify it.
+
+=== Exercise
+
+<<borwein2004mathematics>>, p. 213. This example appeared in Ramanujan's
+lost notebook. For stem:[t \geq 0] and stem:[a > 0],
+evaluate:
+
+[stem]
+++++
+\mathcal I(a,t) = \negthickspace \int_{-t}^{\infty} \frac{a^x}{\Gamma(x + 1)}\
+dx\, + \negthickspace \int_0^{\infty} \negthickspace \frac{e^{-ax}
+x^{t-1}}{\pi^2 + \log^2 x} \left( \cos(\pi t) - \frac{\sin(\pi t)}{\pi} \log x
+\right) dx
+++++
+
+__Hint__: Differentiate stem:[\mathcal I] with respect to stem:[t] to show that
+stem:[\mathcal I(a, t)] is a function of only stem:[a]. Then observe the
+derivatives of stem:[\mathcal I] with respect to stem:[a], and identify the
+function up to a multiplicative constant. Plotting the function might help too.
+Finally evaluate stem:[\mathcal I(0,0)] to obtain the constant.
+
+This is a (difficult) exercise in controlling `Mathematica` evaluation.  You
+can control how `Mathematica` evaluates an expression using the functions
+`Hold`, `ReleaseHold` and `Evaluate` (and others, see the documentation).
+
+A useful trick is the following:
+
+[source,mathematica]
+----
+A = Integrate[terrible_function_of_t] // Hold;
+Block[{Integrate}, D[A, t] // ReleaseHold]
+----
+
+`Block[{Integrate}, ...]` temporarily hides the definition of
+`Integrate` deferring the evaluation of the integral after the one of
+the derivative `D[A,t]`.
+
+Bibliography
+~~~~~~~~~~~~
+
+[bibliography]
+- [[[borwein2004mathematics]]] Borwein, Jonathan M., Bailey, David H. _Mathematics by experiment: Plausible reasoning in the 21st century_, AK Peters, 2004.
+- [[[borwein2004experimentation]]] Borwein, Jonathan M., Bailey, David H. and Girgensohn, Roland. _Experimentation in Mathematics: Computational Paths to Discovery_, AK Peters, 2004.
+- [[[petkovvsek1996]]] Petkovsek, Marko Wilf, Herbert S. and Zeilberger, Doron. _A = B_, AK Peters, 1996.
+

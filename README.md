@@ -4,8 +4,13 @@ These are the lecture notes I have prepared for the subject Experimental Mathema
 
 The notes are written mostly in markdown but with heavy use of latex blocks not only for formulas but also to make use of the tufte latex package.
 
-The plan is to
+## Table of contents
 
-1. Convert the notes to [Asciidoctor](http://asciidoctor.org) which is as simple as Markdown but IMHO way more expressive.
-2. Perhas use something like [tufte-css](https://github.com/daveliepmann/tufte-css) to keep the nice layout
-3. Publish the notes on the web, most likely GitHub Pages will do and it's already connected to my domain.
+1. [Introduction](https://github.com/andreabedini/experimental-mathematics/blob/master/pdfs/Week1.pdf)
+2. [Interger relation detection](https://github.com/andreabedini/experimental-mathematics/blob/master/pdfs/Week1.pdf)
+3. [Bifurcation points of the logistic map](https://github.com/andreabedini/experimental-mathematics/blob/master/pdfs/Week1.pdf)
+4. [Gröbner basis](https://github.com/andreabedini/experimental-mathematics/blob/master/pdfs/Week1.pdf)
+5. [The quest for pi](https://github.com/andreabedini/experimental-mathematics/blob/master/pdfs/Week1.pdf)
+6. [More on BBP formulas](https://github.com/andreabedini/experimental-mathematics/blob/master/pdfs/Week1.pdf)
+
+Feedback, contributions, pull-requests and high-fives are very welcome.

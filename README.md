@@ -19,11 +19,11 @@ The second part covered automated summation of hypergeometric series and followe
 
 ## Mathematica Notebooks
 
-1. [Week 1 (Intro)](https://github.com/andreabedini/experimental-mathematics/blob/master/notebooks/Week1.nb)
-2. [Week 2 (PSLQ)](https://github.com/andreabedini/experimental-mathematics/blob/master/notebooks/PSLQ.nb)
-3. [Week 3 (Logistic map)](https://github.com/andreabedini/experimental-mathematics/blob/master/notebooks/Logistic%20Map.nb)
-4. [Week 4 (Groebner bases)](https://github.com/andreabedini/experimental-mathematics/blob/master/notebooks/Groebner.nb)
-5. [Week 5 (BBP formulas)](https://github.com/andreabedini/experimental-mathematics/blob/master/notebooks/BBP.nb)
+1. [Week 1 (Intro)](https://github.com/andreabedini/experimental-mathematics/raw/master/notebooks/Week1.nb)
+2. [Week 2 (PSLQ)](https://github.com/andreabedini/experimental-mathematics/raw/master/notebooks/PSLQ.nb)
+3. [Week 3 (Logistic map)](https://github.com/andreabedini/experimental-mathematics/raw/master/notebooks/Logistic%20Map.nb)
+4. [Week 4 (Groebner bases)](https://github.com/andreabedini/experimental-mathematics/raw/master/notebooks/Groebner.nb)
+5. [Week 5 (BBP formulas)](https://github.com/andreabedini/experimental-mathematics/raw/master/notebooks/BBP.nb)
 
 ## Further readings
 

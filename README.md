@@ -33,7 +33,7 @@ _Ten problems in Experimental Mathematics_ by Bailey, Borwein, Kapoor and Weisst
 
 - [Assignment 1](https://github.com/andreabedini/experimental-mathematics/blob/master/assignments/Assignment1.pdf)
 - [Assignment 2](https://github.com/andreabedini/experimental-mathematics/blob/master/assignments/Assignment2.pdf)
-- [Final Exam](https://github.com/andreabedini/experimental-mathematics/blob/master/assignments/Exam.pdf)
+- [Final Exam](https://github.com/andreabedini/experimental-mathematics/blob/master/assignments/Exam2014.pdf)
 
 Feedback, contributions, pull-requests and high-fives are very welcome.
 
